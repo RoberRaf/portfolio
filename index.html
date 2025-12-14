@@ -1,630 +1,904 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rober Boules - Flutter Mobile Developer</title>
-    <meta name="description" content="Portfolio of Rober Boules, an expert Flutter Mobile Developer. View mobile apps, web projects, and skills.">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <meta
+      name="description"
+      content="Portfolio of Rober Boules, an expert Flutter Mobile Developer. View mobile apps, web projects, and skills."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
     <!-- Font Awesome for generic icons if needed, though we use SVGs mostly -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-</head>
-<body>
-
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
     <!-- Navigation -->
     <nav class="navbar">
-        <div class="container nav-container">
-            <a href="#" class="logo">Rober<span class="accent">.dev</span></a>
-            <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#mobile-apps">Mobile Apps</a></li>
-                <li><a href="#web-apps">Web Projects</a></li>
-                <li><a href="#courses">Courses</a></li>
-                <li><a href="#contact" class="btn-secondary">Contact Me</a></li>
-            </ul>
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
+      <div class="container nav-container">
+        <a href="#" class="logo">Rober<span class="accent">.dev</span></a>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#mobApps">Mobile Apps</a></li>
+          <li><a href="#web-apps">Web Projects</a></li>
+          <li><a href="#courses">Courses</a></li>
+          <li><a href="#contact" class="btn-secondary">Contact Me</a></li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
         </div>
+      </div>
     </nav>
 
     <!-- Hero Section -->
     <section id="about" class="hero">
-        <div class="container hero-content">
-            <div class="hero-text">
-                <span class="greeting">Hello, I'm</span>
-                <h1>Rober Boules</h1>
-                <h2 class="subtitle">Flutter Mobile Developer</h2>
-                <p class="bio">
-                    Building beautiful, performant, and scalable mobile experiences. 
-                    I transform ideas into reality with clean code and modern UI.
-                </p>
-                <div class="hero-btns">
-                    <a href="#mobile-apps" class="btn-primary">View My Work</a>
-                    <a href="#contact" class="btn-secondary">Let's Talk</a>
-                </div>
-            </div>
-            <div class="hero-image">
-                <img src="./assets/profile.png" alt="Rober Boules">
-            </div>
+      <div class="container hero-content">
+        <div class="hero-text">
+          <span class="greeting">Hello, I'm</span>
+          <h1>Rober Boules</h1>
+          <h2 class="subtitle">Flutter Mobile Developer</h2>
+          <p class="bio">
+            Building beautiful, performant, and scalable mobile experiences. I
+            transform ideas into reality with clean code and modern UI.
+          </p>
+          <div class="hero-btns">
+            <a href="#mobApps" class="btn-primary">View My Work</a>
+            <a href="#contact" class="btn-secondary">Let's Talk</a>
+          </div>
         </div>
+        <div class="hero-image">
+          <img src="./assets/profile_avatar.png" alt="Rober Boules - Avatar" />
+        </div>
+      </div>
     </section>
 
     <!-- Work Experience Section -->
     <section id="experience" class="section">
-        <div class="container">
-            <h2 class="section-title">Work <span class="accent">Experience</span></h2>
-            <div class="timeline">
-                
-                <!-- One Studio -->
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-date">Aug 2025 - Present</div>
-                    <div class="timeline-content">
-                        <h3>Senior Mobile Developer</h3>
-                        <h4>One Studio <span class="badge">Remote</span></h4>
-                        <ul>
-                            <li>Lead mobile development initiatives in a fast-paced venture-building environment, collaborating closely with cross-functional teams to design, build, test, and scale new digital products.</li>
-                            <li>Drive architecture decisions and help transform early-stage ideas into market-ready mobile applications that support the studio's multiple startup ventures.</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Invasso LLC -->
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-date">Jan 2025 - Present</div>
-                    <div class="timeline-content">
-                        <h3>Flutter Developer</h3>
-                        <h4>Invasso LLC <span class="badge">Remote</span></h4>
-                        <ul>
-                            <li>Working on "Bagels" apps, a one solution for restaurants.</li>
-                            <li>Develop POS app for managing both online and offline orders.</li>
-                            <li>Support the legacy code for three apps: User and Delivery man apps.</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- LoadServ -->
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-date">March 2023 - Aug 2025</div>
-                    <div class="timeline-content">
-                        <h3>Mobile App Developer</h3>
-                        <h4>LoadServ <span class="badge">On-site</span></h4>
-                        <ul>
-                            <li>Developed and published new applications to stores, refactored and cleaned up code in legacy applications, adding some new features and fixing bugs.</li>
-                            <li>Introducing CI&CD pipelines using CodePush, Fastlane, Github actions and Codemagic to distribute apps to firebase app distribution and Testflight.</li>
-                            <li>Conducted technical interviews to hire juniors.</li>
-                            <li>Mentoring juniors, reviewing code and providing feedback to the team leader.</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Freelancer -->
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <h3>Mobile and Web Developer</h3>
-                        <h4>Freelancer</h4>
-                        <p>Completed seven freelance projects focused on mobile and web development.</p>
-                    </div>
-                </div>
-
+      <div class="container">
+        <h2 class="section-title">
+          Work <span class="accent">Experience</span>
+        </h2>
+        <div class="timeline">
+          <!-- One Studio -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">Aug 2025 - Present</div>
+            <div class="timeline-content">
+              <h3>Senior Mobile Developer</h3>
+              <h4>
+                One Studio <span class="badge">Remote</span>
+                <span class="badge">Full Time</span>
+              </h4>
+              <ul>
+                <li>
+                  Lead mobile development initiatives in a fast-paced
+                  venture-building environment, collaborating closely with
+                  cross- functional teams to design, build, test, and scale new
+                  digital products.
+                </li>
+                <li>
+                  Drive architecture decisions and help transform early-stage
+                  ideas into market-ready mobile applications that support the
+                  studio’s multiple startup ventures.
+                </li>
+              </ul>
             </div>
+          </div>
+
+          <!-- LoadServ -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">March 2023 - Aug 2025</div>
+            <div class="timeline-content">
+              <h3>Mobile App Developer</h3>
+              <h4>
+                LoadServ <span class="badge">On-site</span>
+                <span class="badge">Full Time</span>
+              </h4>
+              <ul>
+                <li>
+                  Engineered and deployed multiple production Flutter
+                  applications, managing the entire lifecycle from development
+                  to App Store/Play Store publication.
+                </li>
+                <li>
+                  Established robust DevOps workflows by implementing CI/CD
+                  pipelines using GitHub Actions, Codemagic, and Fastlane,
+                  reducing deployment time and enhancing release reliability.
+                </li>
+                <li>
+                  Mentored junior developers, conducted code reviews, and led
+                  technical interviews to recruit top talent and build a
+                  high-performing mobile engineering team.
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Invasso LLC -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">Jan 2025 - Present</div>
+            <div class="timeline-content">
+              <h3>Flutter Developer</h3>
+              <h4>
+                Invasso LLC <span class="badge">Remote</span>
+                <span class="badge">Task Based</span>
+              </h4>
+              <ul>
+                <li>
+                  Develop and maintain the "Bagels" ecosystem, a comprehensive
+                  restaurant management suite including an omnichannel POS
+                  system with offline capabilities.
+                </li>
+                <li>
+                  Modernize and optimize legacy codebases for User and Delivery
+                  applications, improving stability and performance while
+                  implementing new features for seamless order management.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- Invasso LLC -->
         </div>
+      </div>
+    </section>
+
+    <!-- Mobile Apps Section -->
+    <section id="mobApps" class="section bg-light">
+      <div class="container">
+        <h2 class="section-title">
+          Featured <span class="accent">Mobile Apps</span>
+        </h2>
+        <div class="projects-grid">
+          <!-- El-Dahan -->
+          <div class="project-card">
+            <div class="card-header">
+              <img
+                src="./assets/dahan.png"
+                alt="El-Dahan"
+                class="project-icon"
+              />
+              <h3 class="project-title">El-Dahan</h3>
+              <span class="project-tag">Food Delivery</span>
+            </div>
+            <p class="project-desc">
+              A comprehensive food delivery app featuring a robust loyalty
+              system and three-level nested product options. Built with offline
+              capabilities using local storage and integrated with FCM for
+              real-time tracking.
+            </p>
+            <div class="tech-stack-mini">
+              <span>Flutter</span>
+              <span>Isar</span>
+              <span>Paymob</span>
+              <span>FCM</span>
+            </div>
+            <div class="card-links">
+              <a
+                href="https://play.google.com/store/apps/details?id=com.simpletouch.eldahan&pcampaignid=web_share"
+                target="_blank"
+                class="store-link"
+                ><i class="fab fa-google-play"></i> Play Store</a
+              >
+              <a
+                href="https://apps.apple.com/eg/app/el-dahan-%D8%A7%D9%84%D8%AF%D9%87%D8%A7%D9%86/id1546220454"
+                target="_blank"
+                class="store-link"
+                ><i class="fab fa-app-store-ios"></i> App Store</a
+              >
+            </div>
+          </div>
+
+          <!-- ZOD -->
+          <div class="project-card">
+            <div class="card-header">
+              <img src="./assets/zod.png" alt="ZOD" class="project-icon" />
+              <h3 class="project-title">ZOD - مزادات السعودية</h3>
+              <span class="project-tag">Auction</span>
+            </div>
+            <p class="project-desc">
+              A real-time auction marketplace allowing users to bid using
+              points. Powered by Socket.IO for instant updates and secured with
+              PayTabs integration.
+            </p>
+            <div class="tech-stack-mini">
+              <span>Socket.IO</span>
+              <span>PayTabs</span>
+              <span>Real-time</span>
+            </div>
+            <div class="card-links">
+              <a
+                href="https://play.google.com/store/apps/details?id=app.zod.com"
+                target="_blank"
+                class="store-link"
+                ><i class="fab fa-google-play"></i> Play Store</a
+              >
+              <a
+                href="https://apps.apple.com/eg/app/zod-%D9%85%D8%B2%D8%A7%D8%AF%D8%A7%D8%AA-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9/id6744919634"
+                target="_blank"
+                class="store-link"
+                ><i class="fab fa-app-store-ios"></i> App Store</a
+              >
+              <a href="https://zod.shop/" target="_blank" class="store-link"
+                ><i class="fas fa-globe"></i> Website</a
+              >
+            </div>
+          </div>
+
+          <!-- Rydo -->
+          <div class="project-card">
+            <div class="card-header">
+              <img src="./assets/rydo.png" alt="Rydo" class="project-icon" />
+              <h3 class="project-title">Rydo</h3>
+              <span class="project-tag">AI Travel</span>
+            </div>
+            <p class="project-desc">
+              An AI-powered travel assistant for the UAE, leveraging OpenAI and
+              Google Maps to generate personalized itineraries. Features a
+              conversational chatbot and In-app purchases.
+            </p>
+            <div class="tech-stack-mini">
+              <span>OpenAI</span>
+              <span>Google Maps</span>
+              <span>RevenueCat</span>
+            </div>
+            <div class="card-links">
+              <a
+                href="https://play.google.com/store/apps/details?id=app.rydo.ae"
+                target="_blank"
+                class="store-link"
+                ><i class="fab fa-google-play"></i> Play Store</a
+              >
+              <a
+                href="https://apps.apple.com/eg/app/rydo/id6745006103"
+                target="_blank"
+                class="store-link"
+                ><i class="fab fa-app-store-ios"></i> App Store</a
+              >
+              <a href="https://rydo.ae/" target="_blank" class="store-link"
+                ><i class="fas fa-globe"></i> Website</a
+              >
+            </div>
+          </div>
+
+          <!-- Athoob -->
+          <div class="project-card">
+            <div class="card-header">
+              <img
+                src="./assets/athoob.jpg"
+                alt="Athoob"
+                class="project-icon"
+              />
+              <h3 class="project-title">Athoob</h3>
+              <span class="project-tag">Delivery</span>
+            </div>
+            <p class="project-desc">
+              Delivery application with precise location validation and custom
+              map markers. Integrated with Moyasar for payments and Isar for
+              efficient local cart storage.
+            </p>
+            <div class="tech-stack-mini">
+              <span>Google Maps</span>
+              <span>Moyasar</span>
+              <span>Isar</span>
+            </div>
+            <div class="card-links">
+              <a
+                href="https://play.google.com/store/apps/details?id=com.loadserv.athoob&pcampaignid=web_share"
+                target="_blank"
+                class="store-link"
+                ><i class="fab fa-google-play"></i> Play Store</a
+              >
+              <a
+                href="https://apps.apple.com/eg/app/%D8%B9%D8%B0%D9%88%D8%A8/id6475668808"
+                target="_blank"
+                class="store-link"
+                ><i class="fab fa-app-store-ios"></i> App Store</a
+              >
+            </div>
+          </div>
+
+          <!-- Sawa -->
+          <div class="project-card">
+            <div class="card-header">
+              <img src="./assets/sawa.png" alt="Sawa" class="project-icon" />
+              <h3 class="project-title">Sawa</h3>
+              <span class="project-tag">Real Estate</span>
+            </div>
+            <p class="project-desc">
+              A specialized real estate management platform offering advanced
+              search and filtering. Includes distinct roles for users and admins
+              with strict permission guards.
+            </p>
+            <div class="tech-stack-mini">
+              <span>RBAC</span>
+              <span>Deep Links</span>
+              <span>Search</span>
+            </div>
+            <div class="card-links">
+              <a
+                href="https://play.google.com/store/apps/details?id=com.realestate.sawa&pcampaignid=web_share"
+                target="_blank"
+                class="store-link"
+                ><i class="fab fa-google-play"></i> Play Store</a
+              >
+              <a
+                href="https://github.com/RoberRaf/sawa_preview/blob/main/README.md"
+                target="_blank"
+                class="store-link"
+                ><i class="fab fa-github"></i> Preview</a
+              >
+            </div>
+          </div>
+          <!-- Fakker Game -->
+          <div class="project-card">
+            <div class="card-header">
+              <img
+                src="./assets/fakkar.png"
+                alt="Fakker"
+                class="project-icon"
+              />
+              <h3 class="project-title">Fakker Game</h3>
+              <span class="project-tag">Game</span>
+            </div>
+            <p class="project-desc">
+              Competitive triva game. Team vs Team. In-app package purchases.
+            </p>
+            <div class="tech-stack-mini">
+              <span>Game Logic</span>
+              <span>IAP</span>
+            </div>
+            <div class="card-links">
+              <a
+                href="https://play.google.com/store/apps/details?id=com.fakker.fakker&pcampaignid=web_share"
+                target="_blank"
+                class="store-link"
+                ><i class="fab fa-google-play"></i> Play Store</a
+              >
+              <a
+                href="https://apps.apple.com/eg/app/fakker/id6745900254"
+                target="_blank"
+                class="store-link"
+                ><i class="fab fa-app-store-ios"></i> App Store</a
+              >
+              <a
+                href="https://github.com/RoberRaf/Fakker_preview/blob/main/README.md"
+                target="_blank"
+                class="store-link"
+                ><i class="fab fa-github"></i> Preview</a
+              >
+            </div>
+          </div>
+
+          <!-- Homzready -->
+          <div class="project-card">
+            <div class="card-header">
+              <img
+                src="./assets/homz.jpg"
+                alt="Homzready"
+                class="project-icon"
+              />
+              <h3 class="project-title">Homzready</h3>
+              <span class="project-tag">Social</span>
+            </div>
+            <p class="project-desc">
+              Dynamic service engagement platform connecting providers and
+              seekers. Equipped with social login, media-rich chat, and PDF
+              viewing capabilities.
+            </p>
+            <div class="tech-stack-mini">
+              <span>Chat</span>
+              <span>Social Auth</span>
+              <span>Media</span>
+            </div>
+            <div class="card-links">
+              <a
+                href="https://play.google.com/store/apps/details?id=com.alameldin.homzready&pcampaignid=web_share"
+                target="_blank"
+                class="store-link"
+                ><i class="fab fa-google-play"></i> Play Store</a
+              >
+              <a
+                href="https://apps.apple.com/eg/app/homzready/id6451056403"
+                target="_blank"
+                class="store-link"
+                ><i class="fab fa-app-store-ios"></i> App Store</a
+              >
+            </div>
+          </div>
+
+          <!-- Kure -->
+          <div class="project-card">
+            <div class="card-header">
+              <img src="./assets/kure.png" alt="Kure" class="project-icon" />
+              <h3 class="project-title">Kure</h3>
+              <span class="project-tag">Medical</span>
+            </div>
+            <p class="project-desc">
+              Telemedicine application facilitating online consultations with
+              certified dermatologists. Features video calling, screen sharing,
+              and E-signed prescriptions.
+            </p>
+            <div class="tech-stack-mini">
+              <span>Video Call</span>
+              <span>WebRTC</span>
+              <span>Deep Links</span>
+            </div>
+            <div class="card-links">
+              <span class="pending-badge">Pending Release</span>
+            </div>
+          </div>
+
+          <!-- Tizkar -->
+          <div class="project-card">
+            <div class="card-header">
+              <img
+                src="./assets/tizkar.png"
+                alt="Tizkar"
+                class="project-icon"
+              />
+              <h3 class="project-title">Tizkar</h3>
+              <span class="project-tag">E-commerce</span>
+            </div>
+            <p class="project-desc">
+              Single-seller souvenir shop for tourists. Support ordering from
+              abroad with multi-currency features and fair delivery cost
+              estimation.
+            </p>
+            <div class="tech-stack-mini">
+              <span>Localization</span>
+              <span>Maps</span>
+              <span>Auth</span>
+            </div>
+            <div class="card-links">
+              <a
+                href="https://play.google.com/store/apps/details?id=com.app.tizkar&pcampaignid=web_share"
+                target="_blank"
+                class="store-link"
+                ><i class="fab fa-google-play"></i> Play Store</a
+              >
+              <a
+                href="https://apps.apple.com/eg/app/tizkar-souvenirs-gifts/id6452839163?platform=iphone"
+                target="_blank"
+                class="store-link"
+                ><i class="fab fa-app-store-ios"></i> App Store</a
+              >
+            </div>
+          </div>
+
+          <!-- Pupilla -->
+          <div class="project-card">
+            <div class="card-header">
+              <img
+                src="./assets/pupila.png"
+                alt="Pupila"
+                class="project-icon"
+              />
+              <h3 class="project-title">Pupila</h3>
+              <span class="project-tag">Kids</span>
+            </div>
+            <p class="project-desc">
+              Interactive educational app for kids offering pictured books,
+              video narration, and quizzes. Built with offline capabilities and
+              secure subscription management.
+            </p>
+            <div class="tech-stack-mini">
+              <span>SQLite</span>
+              <span>Offline</span>
+              <span>RevenueCat</span>
+            </div>
+            <div class="card-links">
+              <a
+                href="https://play.google.com/store/apps/details?id=com.pupila.pupila&pcampaignid=web_share"
+                target="_blank"
+                class="store-link"
+                ><i class="fab fa-google-play"></i> Play Store</a
+              >
+              <a
+                href="https://apps.apple.com/us/app/pupila-kids-childrens-books/id6444745083"
+                target="_blank"
+                class="store-link"
+                ><i class="fab fa-app-store-ios"></i> App Store</a
+              >
+            </div>
+          </div>
+          <!-- Tabali -->
+          <div class="project-card">
+            <div class="card-header">
+              <img
+                src="./assets/tabali.png"
+                alt="Tabali"
+                class="project-icon"
+              />
+              <h3 class="project-title">Tabali</h3>
+              <span class="project-tag">Food</span>
+            </div>
+            <p class="project-desc">
+              Smart food ordering app that dynamically adjusts pricing based on
+              location and nearest branch. Features a responsive local cart
+              ensuring real-time accuracy.
+            </p>
+            <div class="tech-stack-mini">
+              <span>Maps</span>
+              <span>Dynamic Pricing</span>
+              <span>Real-time Cart</span>
+            </div>
+            <div class="card-links">
+              <a
+                href="https://play.google.com/store/apps/details?id=com.loadserv.tabalibistro&pcampaignid=web_share"
+                target="_blank"
+                class="store-link"
+                ><i class="fab fa-google-play"></i> Play Store</a
+              >
+              <a
+                href="https://apps.apple.com/eg/app/tabali-bistro/id6740022945"
+                target="_blank"
+                class="store-link"
+                ><i class="fab fa-app-store-ios"></i> App Store</a
+              >
+            </div>
+          </div>
+          <!-- Hive Manager -->
+          <div class="project-card">
+            <div class="card-header">
+              <img src="./assets/hive.png" alt="Hive" class="project-icon" />
+              <h3 class="project-title">Hive Manager (ادارة المنحل)</h3>
+              <span class="project-tag">Management</span>
+            </div>
+            <p class="project-desc">
+              A freelance application helping in managing hives and apiaries.
+              Features in-app graphs, statistics tables, Open Street Maps, and
+              task management with scheduled notifications.
+            </p>
+            <div class="tech-stack-mini">
+              <span>Graphs</span>
+              <span>OSM</span>
+              <span>Notifications</span>
+            </div>
+            <div class="card-links">
+              <a
+                href="https://drive.google.com/file/d/1zgVtGd-cTCQFk6EPNukYKhii-ONT3bmH/view"
+                target="_blank"
+                class="store-link"
+                ><i class="fas fa-video"></i> Demo</a
+              >
+            </div>
+          </div>
+
+          <!-- BookCast -->
+          <div class="project-card">
+            <div class="card-header">
+              <img
+                src="./assets/bookcast.png"
+                alt="BookCast"
+                class="project-icon"
+              />
+              <h3 class="project-title">BookCast</h3>
+              <span class="project-tag">Audio</span>
+            </div>
+            <p class="project-desc">
+              Feature-rich audiobook streaming service with background playback
+              and offline downloads. Offers plans managed through RevenueCat.
+            </p>
+            <div class="tech-stack-mini">
+              <span>Audio Service</span>
+              <span>Offline</span>
+              <span>RevenueCat</span>
+            </div>
+            <div class="card-links">
+              <a
+                href="https://play.google.com/store/apps/details?id=com.ibookcast.ibook&pcampaignid=web_share"
+                target="_blank"
+                class="store-link"
+                ><i class="fab fa-google-play"></i> Play Store</a
+              >
+              <a
+                href="https://apps.apple.com/us/app/bookcast-audiobooks-stories/id1583479714"
+                target="_blank"
+                class="store-link"
+                ><i class="fab fa-app-store-ios"></i> App Store</a
+              >
+            </div>
+          </div>
+
+          <!-- Menu Egypt -->
+          <div class="project-card">
+            <div class="card-header">
+              <img
+                src="./assets/menue_egypt.png"
+                alt="Menu Egypt"
+                class="project-icon"
+              />
+              <h3 class="project-title">Menu Egypt</h3>
+              <span class="project-tag">Utility</span>
+            </div>
+            <p class="project-desc">
+              Comprehensive restaurant guide allowing users to discover menus
+              and order online from a vast directory of local eateries.
+            </p>
+            <div class="tech-stack-mini">
+              <span>Directory</span>
+              <span>Ordering</span>
+            </div>
+            <div class="card-links">
+              <a
+                href="https://play.google.com/store/apps/details?id=com.menuegypt.menuegupt&pcampaignid=web_share"
+                target="_blank"
+                class="store-link"
+                ><i class="fab fa-google-play"></i> Play Store</a
+              >
+              <a
+                href="https://apps.apple.com/cz/app/menu-egypt/id1630657799"
+                target="_blank"
+                class="store-link"
+                ><i class="fab fa-app-store-ios"></i> App Store</a
+              >
+            </div>
+          </div>
+
+          <!-- Growth -->
+          <div class="project-card">
+            <div class="card-header">
+              <img
+                src="./assets/growth.png"
+                alt="Growth"
+                class="project-icon"
+              />
+              <h3 class="project-title">Growth</h3>
+              <span class="project-tag">Enterprise</span>
+            </div>
+            <p class="project-desc">
+              Internal enterprise tool with role-based access. Features image
+              and video galleries with thumbnail generation for media
+              management.
+            </p>
+            <div class="tech-stack-mini">
+              <span>Media</span>
+              <span>Enterprise</span>
+            </div>
+            <div class="card-links">
+              <a
+                href="https://drive.google.com/file/d/1zgVtGd-cTCQFk6EPNukYKhii-ONT3bmH/view"
+                target="_blank"
+                class="store-link"
+                ><i class="fas fa-video"></i> Demo</a
+              >
+            </div>
+          </div>
+
+          <!-- Cloud Kitchen -->
+          <div class="project-card">
+            <div class="card-header">
+              <img
+                src="./assets/cloud_kitchen.png"
+                alt="Cloud Kitchen"
+                class="project-icon"
+              />
+              <h3 class="project-title">Cloud Kitchen</h3>
+              <span class="project-tag">Food</span>
+            </div>
+            <p class="project-desc">
+              Features background location service, order tracking video
+              streaming, rewarding system, and support chat.
+            </p>
+            <div class="tech-stack-mini">
+              <span>Paymob</span>
+              <span>Streaming</span>
+              <span>Location</span>
+            </div>
+            <div class="card-links">
+              <a
+                href="https://apps.apple.com/eg/app/cloud-kitchen/id6689521269"
+                target="_blank"
+                class="store-link"
+                ><i class="fab fa-app-store-ios"></i> App Store</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Skills Section -->
     <section id="skills" class="section bg-light">
-        <div class="container">
-            <h2 class="section-title">Technical <span class="accent">Skills</span></h2>
-            <div class="skills-grid">
-                <!-- Mobile Development Stack -->
-                <div class="skill-category">
-                    <h3>Mobile Development Stack</h3>
-                    <div class="skill-tags">
-                        <span>Flutter & Dart</span>
-                        <span>Kotlin & Jetpack Compose</span>
-                        <span>Google Maps & OSM</span>
-                        <span>FCM & Local Notifications</span>
-                        <span>Firebase Crashlytics & Analytics</span>
-                        <span>Background Services</span>
-                        <span>Flutter Concurrency (Isolate)</span>
-                        <span>Flutter Testing</span>
-                        <span>DevTools</span>
-                        <span>Payment Integration</span>
-                    </div>
-                </div>
-
-                <!-- Software Stack -->
-                <div class="skill-category">
-                    <h3>Software Stack</h3>
-                    <div class="skill-tags">
-                        <span>Clean Architecture</span>
-                        <span>Clean Code</span>
-                        <span>SOLID & OOP</span>
-                        <span>CI/CD (Codemagic, GitHub Actions, Fastlane)</span>
-                        <span>Version Control (Git)</span>
-                        <span>Agile (Scrum)</span>
-                        <span>MacOS & Xcode</span>
-                        <span>Linux OS & Bash Scripting</span>
-                        <span>UI/UX</span>
-                    </div>
-                </div>
-
-                <!-- Web Development Stack -->
-                <div class="skill-category">
-                    <h3>Web Development Stack</h3>
-                    <div class="skill-tags">
-                        <span>PHP & Laravel</span>
-                        <span>MySQL</span>
-                        <span>Angular</span>
-                        <span>HTML5 & CSS3</span>
-                        <span>Bootstrap</span>
-                        <span>JS & JQuery</span>
-                        <span>RESTful APIs</span>
-                    </div>
-                </div>
+      <div class="container">
+        <h2 class="section-title">
+          Technical <span class="accent">Skills</span>
+        </h2>
+        <div class="skills-grid">
+          <!-- Mobile Development Stack -->
+          <div class="skill-category">
+            <h3>Mobile Development Stack</h3>
+            <div class="skill-tags">
+              <span>Flutter & Dart</span>
+              <span>Kotlin & Jetpack Compose</span>
+              <span>State Management (Bloc/Cubit)</span>
+              <span>Isar & SQLite</span>
+              <span>Socket.IO & WebSockets</span>
+              <span>WebRTC & Streaming</span>
+              <span>Google Maps & OSM</span>
+              <span>OpenAI API Integration</span>
+              <span>RevenueCat & IAP</span>
+              <span>FCM & Notifications</span>
+              <span>Background Services</span>
+              <span>Offline-first Architecture</span>
+              <span>Payment Gateways (Paymob/Moyasar/PayTabs)</span>
             </div>
-        </div>
-    </section>
+          </div>
 
-    <!-- Mobile Apps Section -->
-    <section id="mobile-apps" class="section bg-light">
-        <div class="container" id="mobApps">
-            <h2 class="section-title">Featured <span class="accent">Mobile Apps</span></h2>
-            <div class="projects-grid">
-                
-                <!-- Dahan -->
-                <div class="project-card">
-                    <div class="card-header">
-                        <img src="./assets/dahan.png" alt="Dahan" class="project-icon">
-                        <h3 class="project-title">Dahan</h3>
-                        <span class="project-tag">Food Delivery</span>
-                    </div>
-                    <p class="project-desc">Completely rewritten food delivery app. Features nested product options (Isar local storage), order tracking, Paymob integration, and reordering capability.</p>
-                    <div class="tech-stack-mini">
-                        <span>Flutter</span>
-                        <span>Isar</span>
-                        <span>Paymob</span>
-                        <span>FCM</span>
-                    </div>
-                    <div class="card-links">
-                        <a href="https://play.google.com/store/apps/details?id=com.simpletouch.eldahan&pcampaignid=web_share" target="_blank" class="store-link"><i class="fab fa-google-play"></i> Play Store</a>
-                        <a href="https://apps.apple.com/eg/app/el-dahan-%D8%A7%D9%84%D8%AF%D9%87%D8%A7%D9%86/id1546220454" target="_blank" class="store-link"><i class="fab fa-app-store-ios"></i> App Store</a>
-                    </div>
-                </div>
-
-                <!-- ZOD -->
-                <div class="project-card">
-                    <div class="card-header">
-                        <img src="./assets/zod.png" alt="ZOD" class="project-icon">
-                        <h3 class="project-title">ZOD - مزادات السعودية</h3>
-                        <span class="project-tag">Auction</span>
-                    </div>
-                    <p class="project-desc">Real-time auction app using points. Features live bidding via Socket.IO (Pusher) and secure payments via PayTabs.</p>
-                    <div class="tech-stack-mini">
-                        <span>Socket.IO</span>
-                        <span>PayTabs</span>
-                        <span>Real-time</span>
-                    </div>
-                    <div class="card-links">
-                        <a href="https://play.google.com/store/apps/details?id=app.zod.com" target="_blank" class="store-link"><i class="fab fa-google-play"></i> Play Store</a>
-                        <a href="https://apps.apple.com/eg/app/zod-%D9%85%D8%B2%D8%A7%D8%AF%D8%A7%D8%AA-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9/id6744919634" target="_blank" class="store-link"><i class="fab fa-app-store-ios"></i> App Store</a>
-                        <a href="https://zod.shop/" target="_blank" class="store-link"><i class="fas fa-globe"></i> Website</a>
-                    </div>
-                </div>
-
-                <!-- Rydo -->
-                <div class="project-card">
-                    <div class="card-header">
-                        <img src="./assets/rydo.png" alt="Rydo" class="project-icon">
-                        <h3 class="project-title">Rydo</h3>
-                        <span class="project-tag">AI Travel</span>
-                    </div>
-                    <p class="project-desc">AI-powered UAE tour guide. Uses OpenAI & Google Maps for personalized plans. Context-aware chatbot and In-app purchases (RevenueCat).</p>
-                    <div class="tech-stack-mini">
-                        <span>OpenAI</span>
-                        <span>Google Maps</span>
-                        <span>RevenueCat</span>
-                    </div>
-                    <div class="card-links">
-                        <a href="https://play.google.com/store/apps/details?id=app.rydo.ae" target="_blank" class="store-link"><i class="fab fa-google-play"></i> Play Store</a>
-                        <a href="https://rydo.ae/" target="_blank" class="store-link"><i class="fas fa-globe"></i> Website</a>
-                    </div>
-                </div>
-
-                <!-- Athoob -->
-                <div class="project-card">
-                    <div class="card-header">
-                        <img src="./assets/athoob.jpg" alt="Athoob" class="project-icon">
-                        <h3 class="project-title">Athoob</h3>
-                        <span class="project-tag">Delivery</span>
-                    </div>
-                    <p class="project-desc">Delivery app with custom map markers, location validation, Moyasar payment, and non-realtime support ticketing system.</p>
-                    <div class="tech-stack-mini">
-                        <span>Google Maps</span>
-                        <span>Moyasar</span>
-                        <span>Isar</span>
-                    </div>
-                    <div class="card-links">
-                        <a href="https://play.google.com/store/apps/details?id=com.loadserv.athoob&pcampaignid=web_share" target="_blank" class="store-link"><i class="fab fa-google-play"></i> Play Store</a>
-                        <a href="https://apps.apple.com/eg/app/%D8%B9%D8%B0%D9%88%D8%A8/id6475668808" target="_blank" class="store-link"><i class="fab fa-app-store-ios"></i> App Store</a>
-                    </div>
-                </div>
-
-                <!-- Cloud Kitchen -->
-                <div class="project-card">
-                    <div class="card-header">
-                        <img src="./assets/cloud_kitchen.png" alt="Cloud Kitchen" class="project-icon">
-                        <h3 class="project-title">Cloud Kitchen</h3>
-                        <span class="project-tag">Food</span>
-                    </div>
-                    <p class="project-desc">Features background location service, order tracking video streaming, rewarding system, and support chat.</p>
-                    <div class="tech-stack-mini">
-                        <span>Paymob</span>
-                        <span>Streaming</span>
-                        <span>Location</span>
-                    </div>
-                    <div class="card-links">
-                         <a href="https://apps.apple.com/eg/app/cloud-kitchen/id6689521269" target="_blank" class="store-link"><i class="fab fa-app-store-ios"></i> App Store</a>
-                    </div>
-                </div>
-
-                <!-- Tabali -->
-                <div class="project-card">
-                    <div class="card-header">
-                        <img src="./assets/tabali.png" alt="Tabali" class="project-icon">
-                        <h3 class="project-title">Tabali</h3>
-                        <span class="project-tag">Food</span>
-                    </div>
-                    <p class="project-desc">Dynamic pricing based on nearest branch/location. Complex cart logic reacting to backend updates and user location changes.</p>
-                    <div class="tech-stack-mini">
-                        <span>Maps</span>
-                        <span>Dynamic Pricing</span>
-                        <span>Real-time Cart</span>
-                    </div>
-                    <div class="card-links">
-                        <a href="https://play.google.com/store/apps/details?id=com.loadserv.tabalibistro&pcampaignid=web_share" target="_blank" class="store-link"><i class="fab fa-google-play"></i> Play Store</a>
-                        <a href="https://apps.apple.com/eg/app/tabali-bistro/id6740022945" target="_blank" class="store-link"><i class="fab fa-app-store-ios"></i> App Store</a>
-                    </div>
-                </div>
-
-                <!-- Kure -->
-                <div class="project-card">
-                    <div class="card-header">
-                        <img src="./assets/kure.png" alt="Kure" class="project-icon">
-                        <h3 class="project-title">Kure</h3>
-                        <span class="project-tag">Medical</span>
-                    </div>
-                    <p class="project-desc">Telemedicine app. Video consultation (PIP), E-signed prescriptions, deep linking, and push notifications for doctor availability.</p>
-                    <div class="tech-stack-mini">
-                        <span>Video Call</span>
-                        <span>WebRTC</span>
-                        <span>Deep Links</span>
-                    </div>
-                    <div class="card-links">
-                        <span class="pending-badge">Pending Release</span>
-                    </div>
-                </div>
-
-                <!-- Fakker Game -->
-                <div class="project-card">
-                    <div class="card-header">
-                        <img src="./assets/fakkar.png" alt="Fakker" class="project-icon">
-                        <h3 class="project-title">Fakker Game</h3>
-                        <span class="project-tag">Game</span>
-                    </div>
-                    <p class="project-desc">Competitive triva game. Team vs Team. In-app package purchases.</p>
-                    <div class="tech-stack-mini">
-                        <span>Game Logic</span>
-                        <span>IAP</span>
-                    </div>
-                    <div class="card-links">
-                        <a href="https://play.google.com/store/apps/details?id=com.fakker.fakker&pcampaignid=web_share" target="_blank" class="store-link"><i class="fab fa-google-play"></i> Play Store</a>
-                        <a href="https://apps.apple.com/eg/app/fakker/id6745900254" target="_blank" class="store-link"><i class="fab fa-app-store-ios"></i> App Store</a>
-                         <a href="https://github.com/RoberRaf/Fakker_preview/blob/main/README.md" target="_blank" class="store-link"><i class="fab fa-github"></i> Preview</a>
-                    </div>
-                </div>
-
-                <!-- Homzready -->
-                 <div class="project-card">
-                    <div class="card-header">
-                        <img src="./assets/homz.jpg" alt="Homzready" class="project-icon">
-                        <h3 class="project-title">Homzready</h3>
-                        <span class="project-tag">Social</span>
-                    </div>
-                    <p class="project-desc">Service engagement platform. Chat, media upload, social login, multi-step forms, and PDF reader.</p>
-                    <div class="tech-stack-mini">
-                        <span>Chat</span>
-                        <span>Social Auth</span>
-                        <span>Media</span>
-                    </div>
-                    <div class="card-links">
-                        <a href="https://play.google.com/store/apps/details?id=com.alameldin.homzready&pcampaignid=web_share" target="_blank" class="store-link"><i class="fab fa-google-play"></i> Play Store</a>
-                        <a href="https://apps.apple.com/eg/app/homzready/id6451056403" target="_blank" class="store-link"><i class="fab fa-app-store-ios"></i> App Store</a>
-                    </div>
-                </div>
-
-                 <!-- Pupila -->
-                 <div class="project-card">
-                    <div class="card-header">
-                        <img src="./assets/pupila.png" alt="Pupila" class="project-icon">
-                        <h3 class="project-title">Pupila</h3>
-                        <span class="project-tag">Kids</span>
-                    </div>
-                    <p class="project-desc">Kids educational app. Interactive PDF books, video narration, offline library, and flash games.</p>
-                    <div class="tech-stack-mini">
-                        <span>SQLite</span>
-                        <span>Offline</span>
-                        <span>RevenueCat</span>
-                    </div>
-                    <div class="card-links">
-                        <a href="https://play.google.com/store/apps/details?id=com.pupila.pupila&pcampaignid=web_share" target="_blank" class="store-link"><i class="fab fa-google-play"></i> Play Store</a>
-                        <a href="https://apps.apple.com/us/app/pupila-kids-childrens-books/id6444745083" target="_blank" class="store-link"><i class="fab fa-app-store-ios"></i> App Store</a>
-                    </div>
-                </div>
-
-                <!-- Tizkar -->
-                 <div class="project-card">
-                    <div class="card-header">
-                        <img src="./assets/tizkar.png" alt="Tizkar" class="project-icon">
-                        <h3 class="project-title">Tizkar</h3>
-                        <span class="project-tag">E-commerce</span>
-                    </div>
-                    <p class="project-desc">Souvenir shop for tourists. Multi-language/currency support, location-based features, and social login.</p>
-                    <div class="tech-stack-mini">
-                        <span>Localization</span>
-                        <span>Maps</span>
-                        <span>Auth</span>
-                    </div>
-                    <div class="card-links">
-                        <a href="https://play.google.com/store/apps/details?id=com.app.tizkar&pcampaignid=web_share" target="_blank" class="store-link"><i class="fab fa-google-play"></i> Play Store</a>
-                        <a href="https://apps.apple.com/eg/app/tizkar-souvenirs-gifts/id6452839163?platform=iphone" target="_blank" class="store-link"><i class="fab fa-app-store-ios"></i> App Store</a>
-                    </div>
-                </div>
-
-                <!-- Hive -->
-                 <div class="project-card">
-                    <div class="card-header">
-                        <img src="./assets/hive.png" alt="Hive" class="project-icon">
-                        <h3 class="project-title">Hive</h3>
-                        <span class="project-tag">Management</span>
-                    </div>
-                    <p class="project-desc">Beekeeping management app. Statistics, graphs, Open Street Maps, and task management with notifications.</p>
-                    <div class="tech-stack-mini">
-                        <span>Charts</span>
-                        <span>OSM</span>
-                        <span>Local Notifs</span>
-                    </div>
-                    <div class="card-links">
-                        <a href="https://drive.google.com/file/d/1zgVtGd-cTCQFk6EPNukYKhii-ONT3bmH/view" target="_blank" class="store-link"><i class="fas fa-video"></i> Demo</a>
-                    </div>
-                </div>
-
-                 <!-- BookCast -->
-                 <div class="project-card">
-                    <div class="card-header">
-                        <img src="./assets/bookcast.png" alt="BookCast" class="project-icon">
-                        <h3 class="project-title">BookCast</h3>
-                        <span class="project-tag">Audio</span>
-                    </div>
-                    <p class="project-desc">Audiobook streaming app. Background playback, offline downloads, subscription plans, and deep linking.</p>
-                    <div class="tech-stack-mini">
-                        <span>Audio Service</span>
-                        <span>Offline</span>
-                        <span>RevenueCat</span>
-                    </div>
-                    <div class="card-links">
-                        <a href="https://play.google.com/store/apps/details?id=com.ibookcast.ibook&pcampaignid=web_share" target="_blank" class="store-link"><i class="fab fa-google-play"></i> Play Store</a>
-                        <a href="https://apps.apple.com/us/app/bookcast-audiobooks-stories/id1583479714" target="_blank" class="store-link"><i class="fab fa-app-store-ios"></i> App Store</a>
-                    </div>
-                </div>
-
-                <!-- Menu Egypt -->
-                <div class="project-card">
-                    <div class="card-header">
-                        <img src="./assets/menue_egypt.png" alt="Menu Egypt" class="project-icon">
-                        <h3 class="project-title">Menu Egypt</h3>
-                        <span class="project-tag">Utility</span>
-                    </div>
-                    <p class="project-desc">Restaurant guide and ordering app. Browse menus and order online.</p>
-                    <div class="tech-stack-mini">
-                        <span>Directory</span>
-                        <span>Ordering</span>
-                    </div>
-                    <div class="card-links">
-                        <a href="https://play.google.com/store/apps/details?id=com.menuegypt.menuegupt&pcampaignid=web_share" target="_blank" class="store-link"><i class="fab fa-google-play"></i> Play Store</a>
-                        <a href="https://apps.apple.com/cz/app/menu-egypt/id1630657799" target="_blank" class="store-link"><i class="fab fa-app-store-ios"></i> App Store</a>
-                    </div>
-                </div>
-
-                 <!-- Sawa -->
-                 <div class="project-card">
-                    <div class="card-header">
-                        <img src="./assets/sawa.png" alt="Sawa" class="project-icon">
-                        <h3 class="project-title">Sawa Real Estate</h3>
-                        <span class="project-tag">Real Estate</span>
-                    </div>
-                    <p class="project-desc">Real estate management. Listings with filter/search, role-based access control (Admin/User), and deep linking.</p>
-                    <div class="tech-stack-mini">
-                        <span>RBAC</span>
-                        <span>Deep Links</span>
-                        <span>Search</span>
-                    </div>
-                    <div class="card-links">
-                         <a href="https://github.com/RoberRaf/sawa_preview/blob/main/README.md" target="_blank" class="store-link"><i class="fab fa-github"></i> Preview</a>
-                    </div>
-                </div>
-
-                <!-- Growth -->
-                 <div class="project-card">
-                    <div class="card-header">
-                        <img src="./assets/growth.png" alt="Growth" class="project-icon">
-                        <h3 class="project-title">Growth</h3>
-                        <span class="project-tag">Enterprise</span>
-                    </div>
-                    <p class="project-desc">Internal enterprise app. Role-based interfaces, media gallery, video picker/player with thumbnail generation.</p>
-                    <div class="tech-stack-mini">
-                        <span>Media</span>
-                        <span>Enterprise</span>
-                    </div>
-                    <div class="card-links">
-                         <a href="https://drive.google.com/file/d/1zgVtGd-cTCQFk6EPNukYKhii-ONT3bmH/view" target="_blank" class="store-link"><i class="fas fa-video"></i> Demo</a>
-                    </div>
-                </div>
-
+          <!-- Tools & Methodologies -->
+          <div class="skill-category">
+            <h3>Tools & Methodologies</h3>
+            <div class="skill-tags">
+              <span>Clean Architecture & SOLID</span>
+              <span>CI/CD (Codemagic, GitHub Actions, Fastlane)</span>
+              <span>Shorebird & CodePush</span>
+              <span>Unit & Widget Testing</span>
+              <span>Git & Version Control</span>
+              <span>Agile/Scrum</span>
+              <span>MacOS & Xcode</span>
+              <span>Linux & Bash Scripting</span>
+              <span>Figma & UI/UX</span>
             </div>
-        </div>
-    </section>
+          </div>
 
-    <!-- Web Projects Section -->
-    <section id="web-apps" class="section">
-        <div class="container">
-            <h2 class="section-title">Web <span class="accent">Projects</span></h2>
-            <div class="projects-grid">
-                 <!-- Hall Place -->
-                 <div class="project-card">
-                    <div class="card-header">
-                        <img src="./assets/gallery.svg" alt="Hall Place" class="project-icon-sm">
-                        <h3 class="project-title">Hall Place</h3>
-                        <span class="project-tag">Web</span>
-                    </div>
-                    <p class="project-desc">Backend APIs for Angular frontend and an Admin panel using Filament.</p>
-                    <div class="tech-stack-mini">
-                        <span>PHP</span>
-                        <span>Laravel</span>
-                        <span>Filament</span>
-                        <span>MySQL</span>
-                    </div>
-                    <div class="card-links">
-                        <a href="https://github.com/RoberRaf/Hall-Place-Preview/blob/main/README.md" target="_blank" class="store-link"><i class="fab fa-github"></i> Preview</a>
-                    </div>
-                </div>
-
-                 <!-- Ostol Mosafer -->
-                 <div class="project-card">
-                    <div class="card-header">
-                        <img src="./assets/gallery.svg" alt="Ostol Mosafer" class="project-icon-sm">
-                        <h3 class="project-title">Ostol Mosafer</h3>
-                        <span class="project-tag">CRM</span>
-                    </div>
-                    <p class="project-desc">Compact CRM for transport. User/Role management, trip CRUD, and financial reporting.</p>
-                    <div class="tech-stack-mini">
-                        <span>PHP</span>
-                        <span>Laravel</span>
-                        <span>Filament</span>
-                    </div>
-                    <div class="card-links">
-                        <a href="https://github.com/RoberRaf/Ostol-Mosafer-Preview/blob/main/README.md" target="_blank" class="store-link"><i class="fab fa-github"></i> Preview</a>
-                    </div>
-                </div>
+          <!-- Web Development Stack -->
+          <div class="skill-category">
+            <h3>Web Development Stack</h3>
+            <div class="skill-tags">
+              <span>PHP & Laravel</span>
+              <span>MySQL</span>
+              <span>Angular</span>
+              <span>HTML5 & CSS3</span>
+              <span>Bootstrap</span>
+              <span>JS & JQuery</span>
+              <span>RESTful APIs</span>
             </div>
+          </div>
         </div>
+      </div>
     </section>
-
 
     <!-- Courses Section -->
     <section id="courses" class="section bg-light">
-        <div class="container">
-            <h2 class="section-title">Courses & <span class="accent">Certifications</span></h2>
-            <div class="courses-list">
-                <div class="course-item">
-                    <div class="course-info">
-                        <h3>ITI Intensive Code Camp - PHP Full Stack</h3>
-                        <p>Information Technology Institute • August 2024</p>
-                    </div>
-                    <a href="https://github.com/RoberRaf/Certificates/blob/main/ITI-PHP.jpg" target="_blank" class="icon-link"><img src="./assets/certificate.svg" alt="Cert"></a>
-                </div>
-
-                 <div class="course-item">
-                    <div class="course-info">
-                        <h3>Flutter & Dart - The Complete Guide</h3>
-                        <p>Maximilian Schwarzmüller • Udemy 2023</p>
-                    </div>
-                    <a href="https://github.com/RoberRaf/Certificates/blob/main/Flutter.pdf" target="_blank" class="icon-link"><img src="./assets/certificate.svg" alt="Cert"></a>
-                </div>
-
-                <div class="course-item">
-                    <div class="course-info">
-                        <h3>CS50: Introduction to Computer Science</h3>
-                        <p>Harvard University • Professor David J. Malan</p>
-                    </div>
-                    <span class="icon-link"><img src="./assets/certificate.svg" alt="Cert"></span>
-                </div>
-
-                <div class="course-item">
-                     <div class="course-info">
-                        <h3>Algorithms and Data Structure Decoding</h3>
-                        <p>Ahmed Metwally (Metwally Labs)</p>
-                    </div>
-                </div>
-
-                <div class="course-item">
-                     <div class="course-info">
-                        <h3>Mahara-Tech Courses</h3>
-                        <div class="course-tags">
-                            <a href="./certificates/Kotlin_crtf.pdf" target="_blank">Kotlin</a>
-                            <a href="./certificates/ubuntu.pdf" target="_blank">Linux</a>
-                            <a href="./certificates/Db_fundamentals.pdf" target="_blank">Database</a>
-                            <a href="./certificates/PHP&MySql.pdf" target="_blank">PHP</a>
-                            <a href="./certificates/type_script.pdf" target="_blank">TypeScript</a>
-                            <a href="./certificates/freelancing.pdf" target="_blank">Freelancing</a>
-                        </div>
-                    </div>
-                </div>
-
+      <div class="container">
+        <h2 class="section-title">
+          Courses & <span class="accent">Certifications</span>
+        </h2>
+        <div class="courses-list">
+          <div class="course-item">
+            <div class="course-info">
+              <h3>ITI Intensive Code Camp - PHP Full Stack</h3>
+              <p>Information Technology Institute • August 2024</p>
             </div>
+            <a
+              href="https://github.com/RoberRaf/Certificates/blob/main/ITI-PHP.jpg"
+              target="_blank"
+              class="icon-link"
+              ><img src="./assets/certificate.svg" alt="Cert"
+            /></a>
+          </div>
+
+          <div class="course-item">
+            <div class="course-info">
+              <h3>Flutter & Dart - The Complete Guide</h3>
+              <p>Maximilian Schwarzmüller • Udemy 2023</p>
+            </div>
+            <a
+              href="https://github.com/RoberRaf/Certificates/blob/main/Flutter.pdf"
+              target="_blank"
+              class="icon-link"
+              ><img src="./assets/certificate.svg" alt="Cert"
+            /></a>
+          </div>
+
+          <div class="course-item">
+            <div class="course-info">
+              <h3>CS50: Introduction to Computer Science</h3>
+              <p>Harvard University • Professor David J. Malan</p>
+            </div>
+            <span class="icon-link"
+              ><img src="./assets/certificate.svg" alt="Cert"
+            /></span>
+          </div>
+
+          <div class="course-item">
+            <div class="course-info">
+              <h3>Algorithms and Data Structure Decoding</h3>
+              <p>Ahmed Metwally (Metwally Labs)</p>
+            </div>
+          </div>
+
+          <div class="course-item">
+            <div class="course-info">
+              <h3>Mahara-Tech Courses</h3>
+              <div class="course-tags">
+                <a href="./certificates/Kotlin_crtf.pdf" target="_blank"
+                  >Kotlin</a
+                >
+                <a href="./certificates/ubuntu.pdf" target="_blank">Linux</a>
+                <a href="./certificates/Db_fundamentals.pdf" target="_blank"
+                  >Database</a
+                >
+                <a href="./certificates/PHP&MySql.pdf" target="_blank">PHP</a>
+                <a href="./certificates/type_script.pdf" target="_blank"
+                  >TypeScript</a
+                >
+                <a href="./certificates/freelancing.pdf" target="_blank"
+                  >Freelancing</a
+                >
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Footer / Contact -->
     <footer id="contact" class="footer">
-        <div class="container footer-content">
-            <h2 class="footer-title">Let's Work Together</h2>
-            <div class="contact-links" style="padding-bottom: 8%;">
-                <a href="tel:+201285566439" class="contact-btn">
-                    <img src="./assets/phone.svg" alt="Phone">
-                    <span>+201285566439</span>
-                </a>
-                <a href="mailto:roberselwanes@gmail.com" class="contact-btn">
-                    <img src="./assets/email.svg" alt="Email">
-                    <span>roberselwanes@gmail.com</span>
-                </a>
-                <a href="https://www.linkedin.com/in/rober-boules-906a18188/" target="_blank" class="contact-btn">
-                    <img src="./assets/linkedin.svg" alt="LinkedIn">
-                    <span>LinkedIn</span>
-                </a>
-                <a href="https://github.com/RoberRaf" target="_blank" class="contact-btn">
-                    <img src="./assets/github.svg" alt="GitHub">
-                    <span>GitHub</span>
-                </a>
-            </div>
-            <p class="copyright">© 2025 Rober Boules. Built with modern web technologies.</p>
+      <div class="container footer-content">
+        <h2 class="footer-title">Let's Work Together</h2>
+        <div class="contact-links" style="padding-bottom: 8%">
+          <a href="tel:+201285566439" class="contact-btn">
+            <img src="./assets/phone.svg" alt="Phone" />
+            <span>+201285566439</span>
+          </a>
+          <a href="mailto:roberselwanes@gmail.com" class="contact-btn">
+            <img src="./assets/email.svg" alt="Email" />
+            <span>roberselwanes@gmail.com</span>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/rober-boules-906a18188/"
+            target="_blank"
+            class="contact-btn"
+          >
+            <img src="./assets/linkedin.svg" alt="LinkedIn" />
+            <span>LinkedIn</span>
+          </a>
+          <a
+            href="https://github.com/RoberRaf"
+            target="_blank"
+            class="contact-btn"
+          >
+            <img src="./assets/github.svg" alt="GitHub" />
+            <span>GitHub</span>
+          </a>
         </div>
+        <p class="copyright">
+          © 2025 Rober Boules. Built with modern web technologies.
+        </p>
+      </div>
     </footer>
 
     <script>
-        // Mobile Menu Toggle
-        const hamburger = document.querySelector(".hamburger");
-        const navLinks = document.querySelector(".nav-links");
+      // Mobile Menu Toggle
+      const hamburger = document.querySelector(".hamburger");
+      const navLinks = document.querySelector(".nav-links");
 
-        hamburger.addEventListener("click", () => {
-            hamburger.classList.toggle("active");
-            navLinks.classList.toggle("active");
-        });
+      hamburger.addEventListener("click", () => {
+        hamburger.classList.toggle("active");
+        navLinks.classList.toggle("active");
+      });
 
-        document.querySelectorAll(".nav-links li a").forEach(n => n.addEventListener("click", () => {
-            hamburger.classList.remove("active");
-            navLinks.classList.remove("active");
-        }));
+      document.querySelectorAll(".nav-links li a").forEach((n) =>
+        n.addEventListener("click", () => {
+          hamburger.classList.remove("active");
+          navLinks.classList.remove("active");
+        })
+      );
     </script>
-</body>
+  </body>
 </html>

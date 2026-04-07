@@ -144,7 +144,7 @@ filterBtns.forEach(btn => {
         const category = btn.dataset.filter;
 
         projectCards.forEach(card => {
-            if (category === 'all' || card.dataset.category.includes(category)) {
+            if (category === 'all' || card.dataset.category === category) {
                 card.classList.remove('hidden');
                 card.style.display = '';
             } else {

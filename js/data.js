@@ -43,7 +43,7 @@ const DATA = {
       icon: "./assets/dahan.png",
       tag: "Food Delivery",
       desc: "A comprehensive food delivery app featuring a robust loyalty system and three-level nested product options. Built with offline capabilities using local storage and integrated with FCM for real-time tracking.",
-      tech: ["Flutter", "Isar", "Paymob", "FCM"],
+      tech: [ "100K+ downloads", "Flutter", "Isar", "Paymob", "FCM"],
       links: [
         { type: "play", url: "https://play.google.com/store/apps/details?id=com.simpletouch.eldahan&pcampaignid=web_share" },
         { type: "apple", url: "https://apps.apple.com/eg/app/el-dahan-%D8%A7%D9%84%D8%AF%D9%87%D8%A7%D9%86/id1546220454" },
